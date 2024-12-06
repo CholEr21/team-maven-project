@@ -30,7 +30,7 @@ public class Login {
 
     @DataProvider(name = "loginData")
     public Object[][] getLoginData() {
-        String filePath = "C:\\Users\\Bushan.BC\\eclipse-workspace\\team\\src\\test\\resources\\file.xlsx";  
+        String filePath = "C:\\Users\\gracy.priyanka\\team-maven-project\\src\\test\\resources\\file.xlsx";  
         List<String[]> data = ExcelUtils.readExcelData(filePath, "Sheet1");
         return data.toArray(new Object[0][]);
     }
